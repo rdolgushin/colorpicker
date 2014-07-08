@@ -18,9 +18,6 @@
 "
 
 
-imap <F5> <Esc>:ColorPickerInsert<Cr>a
-vmap <F5> <Esc>:ColorPickerSelect<Cr>
-
 command ColorPickerInsert call ColorPicker("insert")
 command ColorPickerSelect call ColorPicker("select")
 
